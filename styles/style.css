@@ -1,8 +1,10 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    height: 100%;
     width: 100%;
+    position: relative;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 115px;
 }
 
 .navigation-bar {
@@ -14,6 +16,7 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     box-shadow: 0 3px 3px -1px rgba(0,0,0,.2);
     display: inline;
+    z-index: 10;
 
 }
 .nav-logo {
@@ -21,8 +24,9 @@ body {
     vertical-align: top;
     width: 50px;
     height: 50px;
-    margin-left: 400px;
+    margin-left: 10%;
     margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    background-color: #FFF;
 
 }
 .navigation-bar > a {
@@ -31,14 +35,13 @@ body {
     margin-right: 20px;
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
-    text-decoration: none;
 }
 
 .menubar-button-section {
   float: right;
   display: inline-block;
   vertical-align: top;
-  margin-right: 400px;
+  margin-right: 10%;
   height: 80px;        /* if you want it to take the full height of the bar */
   line-height: 80px;    /* if you want it vertically middle of the navbar */
   font-weight: 700;
@@ -56,13 +59,119 @@ body {
   margin-right: 10px;
 }
 
+.landing-grid-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90%;
+  width: 100%;
+}
+
+.landing-heading {
+  display: inline;
+  z-index: 5;
+  margin-top: 5%;
+  margin-right: -60px;
+  margin-bottom: 0;
+  margin-left: 10%;
+  color: #000;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.landing-page-image {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  right: 40px;
+  bottom: 20px;
+}
+
+.landing-subtitle-div {
+  position: relative;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 10px;
+  bottom: 225px;
+  left: 110px;
+}
+
+.landing-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  background-color: #396941;
+  color: #FFF;
+  margin-top: 25px;
+  font-size: 24px;
+}
+
 span.green-text {
     color: #396941;
 }
 
+.footer-navbar {
+  height: 300px;
+  position: absolute;
+  width: 100%;
+  background: #EAEAEA;
+  overflow: hidden;
+}
+
+.footer-section {
+  display: inline-block;
+  vertical-align: middle;
+  height: 300px;
+  margin-left: 100px;
+  line-height: 40px;
+  padding-top: 40px;
+}
+
+.footer-links-header {
+  text-decoration: none;
+  color: #396941;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.footer-logo-div {
+  margin-left: 15%;
+  line-height: 200px;
+  color: #595959;
+  background-color: #EAEAEA;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-link-div {
+  float: right;
+  margin-right: 15%;
+}
+
+.footer-link-list {
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #595959;
+  display: inline-block;
+}
+
 #download-button {
-  border: 1px solid #396941;
   padding: 8px;
   background-color: #396941;
   color: #FFF;
+}
+
+#download-button:hover {
+  color: #000;
+  background-color: #FFF;
+  padding: 8px;
 }
