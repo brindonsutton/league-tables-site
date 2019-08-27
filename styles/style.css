@@ -49,11 +49,11 @@ body {
 }
 
 .navigation-bar .menubar-button:hover {
-  color: #000;
+  color: #3A3A3A;
 }
 
 .menubar-button {
-  color: #595959;
+  color: #919191;
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
@@ -63,7 +63,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 90%;
-  width: 100%;
+  width: 80%;
+  margin-left: 5%;
 }
 
 .landing-heading {
@@ -72,12 +73,13 @@ body {
   margin-top: 5%;
   margin-right: -60px;
   margin-bottom: 0;
-  margin-left: 10%;
+  margin-left: 15%;
   color: #000;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 70px;
   font-weight: 700;
   text-align: left;
+
 }
 
 .landing-page-image {
@@ -87,32 +89,141 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-  right: 40px;
-  bottom: 20px;
+  right: -40px;
+  bottom: -20px;
 }
 
 .landing-subtitle-div {
   position: relative;
   font-size: 28px;
-  line-height: 28px;
+  line-height: 32px;
   font-weight: 400;
   padding: 10px;
-  bottom: 225px;
-  left: 110px;
+  bottom: 220px;
+  left: 180px;
 }
 
 .landing-button {
   text-decoration: none;
   display: inline-block;
-  padding: 8px;
-  background-color: #396941;
+  position: relative;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #EA3E3B;
   color: #FFF;
   margin-top: 25px;
-  font-size: 24px;
+  font-size: 20;
+  top: 20px;
+  left: 40px;
+  z-index: 6;
+}
+
+.landing-button:hover {
+  background-color: #396941;
+  color: #FFF;
 }
 
 span.green-text {
     color: #396941;
+}
+
+.green-content {
+  background-color: #396941;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+.green-content > div {
+  width: 100%;
+}
+
+.green-video-section {
+  width: 100;
+}
+
+.green-video-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+
+.green-video-section h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.green-video {
+  margin-bottom: 50px;
+}
+
+.green-section.red-button {
+  text-transform: uppercase;
+}
+
+.green-section-button > a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #EA3E3B;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.green-section-button > a:hover {
+  background-color: #20456F;
+  color: #FFF;
+}
+
+.image-section{
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.image-content {
+  width: 100%;
+  text-align: center;
+}
+
+.image-content > h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+img {
+  margin-left: 80px;
+}
+
+.image-content > h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.download-button {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #EA3E3B;
+    color: #FFF;
+    font-weight: 700;
 }
 
 .footer-navbar {
@@ -140,38 +251,30 @@ span.green-text {
 }
 
 .footer-logo-div {
-  margin-left: 15%;
+  margin-left: 10%;
   line-height: 200px;
   color: #595959;
   background-color: #EAEAEA;
 }
 
-.footer-logo {
-  display: inline-block;
-}
-
 .footer-link-div {
   float: right;
-  margin-right: 15%;
-}
-
-.footer-link-list {
+  margin-right: 10%;
 }
 
 .footer-link {
   text-decoration: none;
   color: #595959;
-  display: inline-block;
 }
 
 #download-button {
   padding: 8px;
-  background-color: #396941;
+  background-color: #EA3E3B;
   color: #FFF;
 }
 
 #download-button:hover {
-  color: #000;
-  background-color: #FFF;
+  color: #FFF;
+  background-color: #396941;
   padding: 8px;
 }
