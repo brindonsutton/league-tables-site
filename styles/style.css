@@ -204,7 +204,8 @@ span.green-text {
 }
 
 img {
-  margin-left: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .image-content > h2 {
@@ -226,6 +227,10 @@ img {
     font-weight: 700;
 }
 
+.download-button:hover {
+  background-color: #396941;
+}
+
 .footer-navbar {
   height: 300px;
   position: absolute;
@@ -241,6 +246,7 @@ img {
   margin-left: 100px;
   line-height: 40px;
   padding-top: 40px;
+  border: 1px solid black;
 }
 
 .footer-links-header {
