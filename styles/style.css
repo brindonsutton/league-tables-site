@@ -165,8 +165,8 @@ span.green-text {
   margin-bottom: 50px;
 }
 
-.green-section.red-button {
-  text-transform: uppercase;
+video {
+  box-shadow: 3px 5px 3px 1px rgba(0,0,0,.2);
 }
 
 .green-section-button > a {
@@ -203,9 +203,11 @@ span.green-text {
     line-height: 40px;
 }
 
-img {
+.image-section img {
   margin-left: 40px;
   margin-right: 40px;
+  box-shadow: 3px 5px 3px 1px rgba(0,0,0,.2);
+  border-radius: 5px;
 }
 
 .image-content > h2 {
@@ -229,6 +231,10 @@ img {
 
 .download-button:hover {
   background-color: #396941;
+}
+
+.footer-content .logo-image {
+  box-shadow: 3px 5px 3px 1px rgba(0,0,0,.2);
 }
 
 .footer-navbar {
@@ -270,6 +276,11 @@ img {
 .footer-link {
   text-decoration: none;
   color: #595959;
+}
+
+.button {
+  box-shadow: -1px 3px 3px -1px rgba(0,0,0,.2);
+  border-radius: 10px;
 }
 
 #download-button {
